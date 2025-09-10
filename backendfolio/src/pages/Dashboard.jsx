@@ -2,7 +2,7 @@ import  { useState } from 'react'
 import { User, Upload, Eye, Settings } from 'lucide-react'
 import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card'
 import { Button } from '../components/ui/Button'
-// import UploadForm from '../components/forms/UploadForm'
+import UploadForm from '../components/forms/Upload'
 import ProfileForm from '../components/forms/ProfileForm'
 import ProjectPreview from '../components/portfolio/ProjectPreview'
 
