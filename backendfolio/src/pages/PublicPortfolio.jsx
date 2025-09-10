@@ -1,10 +1,10 @@
 // src/components/portfolio/EndpointCard.jsx
 import  { useState } from 'react'
 import { ChevronDown, ChevronRight, Code, Eye } from 'lucide-react'
-import { Card, CardContent } from '../ui/Card'
-import { Badge } from '../ui/Badge'
-import { Button } from '../ui/Button'
-import { getMethodColor, truncateText } from '../../utils/helpers'
+// import { Card, CardContent } from '../ui/Card'
+// import { Badge } from '../ui/Badge'
+// import { Button } from '../ui/Button'
+import { getMethodColor, truncateText } from '../utils/helpers'
 
 export default function EndpointCard({ endpoint }) {
   const [isExpanded, setIsExpanded] = useState(false)

@@ -1,9 +1,8 @@
-/ src/components/portfolio/ProjectPreview.jsx
 import React from 'react'
 import { ExternalLink, Globe, User } from 'lucide-react'
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card'
 import { Button } from '../ui/Button'
-import { Badge } from '../ui/Badge'
+// import { Badge } from '../ui/Badge'
 
 export default function ProjectPreview({ project }) {
   if (!project) {
