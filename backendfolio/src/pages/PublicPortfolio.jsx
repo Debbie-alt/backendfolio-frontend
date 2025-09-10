@@ -1,5 +1,5 @@
 // src/components/portfolio/EndpointCard.jsx
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { ChevronDown, ChevronRight, Code, Eye } from 'lucide-react'
 import { Card, CardContent } from '../ui/Card'
 import { Badge } from '../ui/Badge'
