@@ -1,6 +1,6 @@
 // src/components/forms/ProfileForm.jsx
 import  { useState } from 'react'
-import { User, Save, } from 'lucide-react'
+// import { User, Save, } from 'lucide-react'
 import { Button } from '../ui/Button'
 // import {  Textarea } from '../ui/Input'
 import axios from 'axios'
@@ -106,7 +106,7 @@ export default function ProfileForm({ onSaved }) {
 
       <div className="flex items-center justify-between">
         <Button type="submit" disabled={loading} className="gap-2">
-          {loading ? <Loader2 size={16} className="animate-spin" /> : <Save size={16} />}
+          {loading ? <Loader2 size={16} className="animate-spin" /> : ''}
           Save Profile
         </Button>
         

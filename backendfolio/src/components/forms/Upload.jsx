@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Upload, FileText, Link, Loader2, CheckCircle } from 'lucide-react'
+// import { Upload, FileText, Link, Loader2, CheckCircle } from 'lucide-react'
 import { Button } from '../ui/Button'
 // import { Input } from '../ui/Input'
 import { Card, CardContent } from '../ui/Card'
@@ -72,7 +72,7 @@ export default function UploadForm({ onUploaded }) {
               : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100'
           }`}
         >
-          <FileText size={16} />
+          <FileText  />
           Upload File
         </button>
         <button

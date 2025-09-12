@@ -54,7 +54,7 @@ export default function Dashboard() {
             <Card className="border-2">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <User size={20} />
+                  {/* <User size={20} /> */}
                   Profile Information
                 </CardTitle>
               </CardHeader>
@@ -120,7 +120,7 @@ export default function Dashboard() {
                 className="w-full justify-start gap-2"
                 onClick={() => setActiveTab('profile')}
               >
-                <User size={16} />
+                {/* <User size={16} /> */}
                 Edit Profile
               </Button>
               <Button 
