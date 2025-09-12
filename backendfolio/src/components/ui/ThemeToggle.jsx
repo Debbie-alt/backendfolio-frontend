@@ -1,14 +1,15 @@
 import React from 'react'
-import { Sun, Moon, Monitor } from 'lucide-react'
+import { SunMedium, Moon, Monitor } from 'lucide-react'
 import { useTheme } from '../../context/ThemeContext'
 import { Button } from './Button'
 import { cn } from '../../utils/helpers'
+
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme()
 
   const themes = [
-    { value: 'light', icon: Sun, label: 'Light' },
+    { value: 'light', icon: SunMedium, label: 'Light' },
     { value: 'dark', icon: Moon, label: 'Dark' },
     { value: 'system', icon: Monitor, label: 'System' },
   ]
