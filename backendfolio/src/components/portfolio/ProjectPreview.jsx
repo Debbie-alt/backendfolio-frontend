@@ -28,7 +28,7 @@ export default function ProjectPreview({ project }) {
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center">
-                  <User size={20} className="text-white" />
+                  {/* <User size={20} className="text-white" /> */}
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100">

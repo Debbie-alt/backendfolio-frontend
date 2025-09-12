@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Code, LayoutDashboard, Home } from 'lucide-react'
+// import { Code, LayoutDashboard, Home } from 'lucide-react'
 import ThemeToggle from '../ui/ThemeToggle'
 import { Button } from '../ui/Button'
 
@@ -19,7 +19,7 @@ export default function Header() {
             className="flex items-center gap-2 text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent hover:from-primary-500 hover:to-secondary-500 transition-all duration-200"
           >
             <div className="rounded-lg bg-gradient-to-br from-primary-500 to-secondary-500 p-2">
-              <Code size={20} className="text-white" />
+              {/* <Code size={20} className="text-white" /> */}
             </div>
             BackendFolio
           </Link>
@@ -32,7 +32,7 @@ export default function Header() {
                 size="sm"
                 className="gap-2"
               >
-                <Home size={16} />
+                {/* <Home size={16} /> */}
                 Home
               </Button>
             </Link>
@@ -43,7 +43,7 @@ export default function Header() {
                 size="sm"
                 className="gap-2"
               >
-                <LayoutDashboard size={16} />
+                {/* <LayoutDashboard size={16} /> */}
                 Dashboard
               </Button>
             </Link>
@@ -51,12 +51,12 @@ export default function Header() {
 
           {/* Theme Toggle */}
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             
             {/* Mobile Menu Button - you can add this later */}
             <div className="md:hidden">
               <Button variant="ghost" size="icon">
-                <LayoutDashboard size={20} />
+                {/* <LayoutDashboard size={20} /> */}
               </Button>
             </div>
           </div>

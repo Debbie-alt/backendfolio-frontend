@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Code, Zap, Globe, Star, Users, FileText } from 'lucide-react'
+// import { ArrowRight, Code, Zap, Globe, Star, Users, FileText } from 'lucide-react'
 import { Button } from '../components/ui/Button'
 import { Card, CardContent } from '../components/ui/Card'
 
@@ -11,7 +11,7 @@ export default function Landing() {
       <div className="text-center mb-20">
         <div className="animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-primary-100/50 backdrop-blur-sm text-primary-700 px-4 py-2 rounded-full text-sm font-medium mb-6 dark:bg-primary-900/20 dark:text-primary-300 border border-primary-200/50 dark:border-primary-700/50">
-            <Star size={16} className="animate-pulse" />
+            {/* <Star size={16} className="animate-pulse" /> */}
             Transform your backend docs into portfolios
           </div>
           
@@ -29,11 +29,11 @@ export default function Landing() {
             <Link to="/dashboard">
               <Button size="lg" className="gap-2 group">
                 Get Started Free
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                {/* <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" /> */}
               </Button>
             </Link>
             <Button variant="outline" size="lg" className="gap-2">
-              <Globe size={20} />
+              {/* <Globe size={20} /> */}
               View Example
             </Button>
           </div>
@@ -51,7 +51,7 @@ export default function Landing() {
             <Card className="h-full hover:scale-105 transition-all duration-300 group border-2 hover:border-primary-200 dark:hover:border-primary-700">
               <CardContent className="p-8 text-center">
                 <div className="mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <feature.icon size={28} className="text-white" />
+                  {/* <feature.icon size={28} className="text-white" /> */}
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">
                   {feature.title}
@@ -94,7 +94,7 @@ export default function Landing() {
             <Link to="/dashboard">
               <Button size="lg" className="gap-2 group">
                 Create Your Portfolio
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                {/* <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" /> */}
               </Button>
             </Link>
           </CardContent>
@@ -106,17 +106,17 @@ export default function Landing() {
 
 const features = [
   {
-    icon: FileText,
+    // icon: FileText,
     title: "Import Anywhere",
     description: "Upload Swagger/OpenAPI docs, Postman collections, or paste URLs. We handle the parsing."
   },
   {
-    icon: Zap,
+    // icon: Zap,
     title: "Instant Preview", 
     description: "Get a beautiful portfolio page in seconds. No coding, no design skills required."
   },
   {
-    icon: Users,
+    // icon: Users,
     title: "Recruiter Friendly",
     description: "Clean, professional presentation that non-technical people can actually understand."
   }
