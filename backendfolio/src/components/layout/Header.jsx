@@ -16,12 +16,12 @@ export default function Header() {
           {/* Logo */}
           <Link 
             to="/" 
-            className="flex items-center gap-2 text-xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent hover:from-primary-500 hover:to-secondary-500 transition-all duration-200"
+            className="flex items-center gap-2 text-xl text-gray-800 dark:text-gray-200 font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent hover:from-primary-500 hover:to-secondary-500 transition-all duration-200"
           >
-            <div className="rounded-lg bg-gradient-to-br from-primary-500 to-secondary-500 p-2">
+            <div className="rounded-lg bg-gradient-to-br from-green-500 to-gray-500 p-2 ">
               {/* <Code size={20} className="text-white" /> */}
             </div>
-            BackendFolio
+            <span className='text-gray-800 dark:text-gray-200'>BackendFolio</span>
           </Link>
 
           {/* Navigation */}
@@ -30,7 +30,7 @@ export default function Header() {
               <Button 
                 variant={isActive('/') ? 'default' : 'ghost'} 
                 size="sm"
-                className="gap-2"
+                className="gap-2 text-gray-800 border border-green-600 rounded-md"
               >
                 {/* <Home size={16} /> */}
                 Home

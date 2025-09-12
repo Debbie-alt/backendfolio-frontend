@@ -9,9 +9,9 @@ export default function ThemeToggle() {
   const { theme, setTheme } = useTheme()
 
   const themes = [
-    { value: 'light', icon: SunMedium, label: 'Light' },
-    { value: 'dark', icon: Moon, label: 'Dark' },
-    { value: 'system', icon: Monitor, label: 'System' },
+    { value: 'light', label: 'Light' },
+    { value: 'dark',  label: 'Dark' },
+    { value: 'system',  label: 'System' },
   ]
 
   return (
@@ -28,7 +28,7 @@ export default function ThemeToggle() {
           )}
           title={label}
         >
-          <Icon size={14} />
+          {/* <SunMedium size={14} /> */}
           <span className="hidden sm:inline">{label}</span>
         </button>
       ))}
