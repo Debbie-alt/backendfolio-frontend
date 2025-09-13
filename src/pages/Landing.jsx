@@ -92,7 +92,7 @@ export default function Landing() {
               Join developers who are already impressing recruiters with their backend portfolios.
             </p>
             <Link to="/dashboard">
-              <Button size="lg" className="gap-2 group bg-green-800 hover:bg-green-700 text-white">
+              <Button size="lg" className="gap-2 group bg-green-800  hover:bg-green-700 text-white">
                 Create Your Portfolio
                 {/* <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" /> */}
               </Button>
