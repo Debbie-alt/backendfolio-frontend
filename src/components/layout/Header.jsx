@@ -30,7 +30,7 @@ export default function Header() {
               <Button 
                 variant={isActive('/') ? 'default' : 'ghost'} 
                 size="sm"
-                className="gap-2 text-gray-800 border border-green-600 rounded-md"
+                className="gap-2 text-gray-800 dark:text-gray-200 border border-green-600 rounded-md"
               >
                 {/* <Home size={16} /> */}
                 Home
